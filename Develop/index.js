@@ -88,7 +88,7 @@ function init() {
     inquirer
     .prompt(questions)
     .then((answers) => {
-        console.log(answers)
+        // console.log(answers)
         writeToFile('README.md', generateMarkdown(answers));
  });
 };
@@ -100,21 +100,3 @@ init();
 
 
 
-//METHOD PROMPT ACCEPTS AN ARGUMENT (QUESTIONS)
-// inquirer
-//     .prompt(questions)
-//     .then((response) => {
-//         // console.log(response);
-//     });
-
-    // inquirer
-    // .prompt(questions)
-    // .then((answers) => {
-    //     fs.writeFile('Gen-README.md', generateMarkdown.md(answers),(error) => {
-
-    //     // fs.writeFile('answers.json', JSON.stringify(answers),(error) => {
-    //        return error
-    //        ? console.log(error)
-    //        : console.log('File written successfully');
-    //     });
-    //    });
