@@ -1,5 +1,4 @@
 // TODO: Include packages needed for this application
-//TO USE INQUIRE YOU HAVE TO IMPORTER IT.
 
 const inquirer = require('inquirer');
 const fs = require('fs');

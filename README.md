@@ -12,6 +12,12 @@ Using the command-line the user is asked a series of questions about the project
 To install this application the user can go into the repo and clone it. Once they have cloned the repo using the command-line they can start creating their application with the command "node index.js"
 
 ## Video
+Link to Demo
+https://drive.google.com/file/d/1lzssOq9xUqCpOr6zEWALjW1UE93ildOY/view
+
+![Video Demo](./Develop/Images/Screen%20Shot%202023-01-15%20at%201.41.35%20PM.png)
+
+
 
 ## Licence
 
